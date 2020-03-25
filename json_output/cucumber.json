@@ -1,0 +1,204 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 26,
+        "name": "CunyFirst Login Test Scenario",
+        "description": "",
+        "id": "cunyfirst-login-feature;cunyfirst-login-test-scenario;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8318902945,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user is already on Login Page",
+            "match": {
+              "location": "LoginStepDefination.user_already_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 185243478,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "title of login page is CUNY Login",
+            "match": {
+              "location": "LoginStepDefination.title_of_login_page_is_free_CRM()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 800496560,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user enters \"Ali.ahmed004@login.cuny.edu\" and \"Ilovenyc1997\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ali.ahmed004@login.cuny.edu",
+                  "offset": 13
+                },
+                {
+                  "val": "Ilovenyc1997",
+                  "offset": 47
+                }
+              ],
+              "location": "LoginStepDefination.user_enters_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2915085541,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "LoginStepDefination.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 24129626,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user is on home page",
+            "match": {
+              "location": "LoginStepDefination.user_is_on_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 193335133,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "close the browser",
+            "match": {
+              "location": "LoginStepDefination.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 27,
+        "name": "CunyFirst Login Test Scenario",
+        "description": "",
+        "id": "cunyfirst-login-feature;cunyfirst-login-test-scenario;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3542814469,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user is already on Login Page",
+            "match": {
+              "location": "LoginStepDefination.user_already_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 22554187,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "title of login page is CUNY Login",
+            "match": {
+              "location": "LoginStepDefination.title_of_login_page_is_free_CRM()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 326826098,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user enters \"tom123\" and \"test123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "tom123",
+                  "offset": 13
+                },
+                {
+                  "val": "test123",
+                  "offset": 26
+                }
+              ],
+              "location": "LoginStepDefination.user_enters_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 432789736,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "LoginStepDefination.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 18471186,
+              "error_message": "junit.framework.ComparisonFailure: expected:\u003c[Employee-facing registry content]\u003e but was:\u003c[CUNY Login]\u003e\n\tat junit.framework.Assert.assertEquals(Assert.java:100)\n\tat junit.framework.Assert.assertEquals(Assert.java:107)\n\tat stepDefinations.LoginStepDefination.user_is_on_home_page(LoginStepDefination.java:52)\n\tat ✽.Then user is on home page(/Users/AliAhmed/eclipse-workspace/CunyFirstBDDFramework/src/main/java/Features/login.feature:21)\n",
+              "status": "failed"
+            },
+            "line": 21,
+            "name": "user is on home page",
+            "match": {
+              "location": "LoginStepDefination.user_is_on_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "close the browser",
+            "match": {
+              "location": "LoginStepDefination.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "CunyFirst Login Feature",
+    "description": "",
+    "id": "cunyfirst-login-feature",
+    "keyword": "Feature",
+    "uri": "/Users/AliAhmed/eclipse-workspace/CunyFirstBDDFramework/src/main/java/Features/login.feature"
+  }
+]

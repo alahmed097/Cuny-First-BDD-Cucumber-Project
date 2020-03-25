@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="16.780649">
+<testcase classname="CunyFirst Login Feature" name="CunyFirst Login Test Scenario" time="12.437193">
+<system-out><![CDATA[Given user is already on Login Page.........................................passed
+When title of login page is CUNY Login......................................passed
+Then user enters "Ali.ahmed004@login.cuny.edu" and "Ilovenyc1997"...........passed
+Then user clicks on login button............................................passed
+Then user is on home page...................................................passed
+Then close the browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="CunyFirst Login Feature" name="CunyFirst Login Test Scenario 2" time="4.343456">
+<failure message="junit.framework.ComparisonFailure: expected:&lt;[Employee-facing registry content]&gt; but was:&lt;[CUNY Login]&gt;&#10;&#9;at junit.framework.Assert.assertEquals(Assert.java:100)&#10;&#9;at junit.framework.Assert.assertEquals(Assert.java:107)&#10;&#9;at stepDefinations.LoginStepDefination.user_is_on_home_page(LoginStepDefination.java:52)&#10;&#9;at ✽.Then user is on home page(/Users/AliAhmed/eclipse-workspace/CunyFirstBDDFramework/src/main/java/Features/login.feature:21)&#10;"><![CDATA[Given user is already on Login Page.........................................passed
+When title of login page is CUNY Login......................................passed
+Then user enters "tom123" and "test123".....................................passed
+Then user clicks on login button............................................passed
+Then user is on home page...................................................failed
+Then close the browser......................................................skipped
+
+StackTrace:
+junit.framework.ComparisonFailure: expected:<[Employee-facing registry content]> but was:<[CUNY Login]>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at stepDefinations.LoginStepDefination.user_is_on_home_page(LoginStepDefination.java:52)
+	at ✽.Then user is on home page(/Users/AliAhmed/eclipse-workspace/CunyFirstBDDFramework/src/main/java/Features/login.feature:21)
+]]></failure>
+</testcase>
+</testsuite>
